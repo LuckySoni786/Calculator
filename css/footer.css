@@ -1,0 +1,74 @@
+.main {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border-radius: 50px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 2px 1px 1px 2px maroon;
+    line-height: 64px;
+
+}
+
+a i {
+    transition: all 0.3s linear;
+    margin-left: 2px;
+}
+
+a:hover i {
+    transform: scale(1.2);
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-instagram {
+    color: rgb(113, 87, 87);
+}
+
+.fa-twitter {
+    color: rgb(112, 112, 201);
+}
+
+.fa-whatsapp {
+    color: rgb(83, 196, 39);
+}
+
+@media screen and (max-width:400px) {
+    a {
+        margin: 10px;
+        height: 40px;
+        width: 40px;
+        line-height: 50px;
+    }
+
+    .fa-facebook {
+        font-size: 25px;
+        margin-left: 2px;
+    }
+
+    .fa-instagram {
+        font-size: 25px;
+        margin-left: 2px;
+    }
+
+    .fa-twitter {
+        font-size: 25px;
+        margin-left: 2px;
+    }
+
+    .fa-whatsapp {
+        font-size: 25px;
+        margin: 0px 0px 0px 3px;
+
+    }
+}
